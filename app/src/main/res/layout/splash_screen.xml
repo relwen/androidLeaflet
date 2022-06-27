@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:id="@+id/container"
+    android:background="@color/white"
+    tools:context=".Intro.SplashScreen">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <com.agrawalsuneet.dotsloader.loaders.TashieLoader
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:bounce_animDuration="1200"
+        app:bounce_ballColor="#D35D5D"
+        app:bounce_ballRadius="15dp"
+        app:bounce_shadowColor="@color/black"
+        app:bounce_showShadow="true" />
+
+</LinearLayout>
