@@ -18,14 +18,6 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/ic_launcher_background" />
 
-    <com.agrawalsuneet.dotsloader.loaders.TashieLoader
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:bounce_animDuration="1200"
-        app:bounce_ballColor="#D35D5D"
-        app:bounce_ballRadius="15dp"
-        app:bounce_shadowColor="@color/black"
-        app:bounce_showShadow="true" />
 
 </LinearLayout>

@@ -44,7 +44,7 @@ import java.util.Date;
 
 public class MainActivity extends AppCompatActivity {
 
-    String url="file:///android_asset/mos/index.html";
+    String url="file:///android_asset/maps/index.html";
     WebView webView;
     private static final String TAG = MainActivity.class.getSimpleName();
     private String mCM;
@@ -53,8 +53,6 @@ public class MainActivity extends AppCompatActivity {
     private final static int FCR=1;
 
     LinearLayout splash;
-    public static String NAME_IMAGE="nothing";
-    public static String CHANNEL_ID="101";
 
     @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
