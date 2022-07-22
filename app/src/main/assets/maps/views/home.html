@@ -4,7 +4,6 @@
         <div class="navbar navbar-style-1" style="box-shadow: rgb(177 91 16 / 39%) -1px 1px 8px 0px">
             <div class="navbar-inner">
                 <a href="#" class="link icon-only panel-open" data-panel="left">
-                   
                    <img src="assets/img/maps.png" width="30px" /> 
                 </a>
                 <div class="title">
@@ -20,8 +19,6 @@
                             </svg>
                         </div>
                     </a>
-
-                    
                 </div>
             </div>
         </div>
@@ -29,25 +26,17 @@
 
         <!-- Page Content -->
         <div class="page-content content-area pt-80 pb-5">
-            
             <br/><br/>
             <div class="container">
-
                 <div id="map" style="height: 900px;width: 100%"></div>
-
                 <div class="container" style="z-index: 9999">
-                
                     <div class="list simple-list searchbar-not-found">
                         <ul>
                             <li>Aucun résultat</li>
                         </ul>
                     </div>
-                    
                 </div>
-
             </div>
-            
-            
         </div>
         
     </div>
@@ -64,8 +53,7 @@
 
 
       $on('pageInit', () => {
-
-
+        
             var map = L.map('map').setView([12.3499,-1.519920],13);
             var x = "12.371530";
             var y = "-1.519920";
